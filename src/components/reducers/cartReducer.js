@@ -10,7 +10,7 @@ import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '
 const initState = {
     items: [
         {id:1,title:'', desc: "Sydney Opera House Tour", price:110,img:Item1},
-        {id:2,title:'', desc: "Sydney Harbour Brige Climp Tour", price:180,img: Item2},
+        {id:2,title:'', desc: "Sydney Harbour Brige Climb Tour", price:180,img: Item2},
         {id:3,title:'', desc: "Sydney Manly Beach Tour ",price:50,img: Item3},
         {id:4,title:'', desc: "Sydne Zoo Tour", price:150,img:Item4},
     ],
