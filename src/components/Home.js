@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
+import Button from 'react-bootstrap/Button';
 
  class Home extends Component{
     
@@ -15,7 +16,10 @@ import { addToCart } from './actions/cartActions'
                         <div className="card-image">
                             <img src={item.img} alt={item.title}/>
                             <span className="card-title">{item.title}</span>
-                            <span to="/" className="btn-floating halfway-fab waves-effect waves-light red" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add</i></span>
+                            <button type="submit" class="btn btn-primary" onClick={()=>{this.handleClick(item.id)}}>Add to Cart</button>
+                            {/*
+                            <span to="/" className="btn-floating halfway-fab waves-effect waves-light red" 
+                            onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add</i></span> */}
                         </div>
 
                         <div className="card-content">
