@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
                     <Link to="/" className="brand-logo">Sydney Tour Booking</Link>
                     
                     <ul className="right">
-                        <li><Link to="/">Slect Tour</Link></li>
+                        <li><Link to="/">Select Tour</Link></li>
                         <li><Link to="/cart">My cart</Link></li>
                         {/*<li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>*/}
                     </ul>

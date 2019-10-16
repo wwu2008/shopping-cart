@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
-import Button from 'react-bootstrap/Button';
+import button from 'react-bootstrap/Button';
 
  class Home extends Component{
     
@@ -16,7 +16,7 @@ import Button from 'react-bootstrap/Button';
                         <div className="card-image">
                             <img src={item.img} alt={item.title}/>
                             <span className="card-title">{item.title}</span>
-                            <button type="submit" class="btn btn-primary" onClick={()=>{this.handleClick(item.id)}}>Add to Cart</button>
+                            <button type="submit" class="btn btn-outline-primary" onClick={()=>{this.handleClick(item.id)}}>Add to Cart</button>
                             {/*
                             <span to="/" className="btn-floating halfway-fab waves-effect waves-light red" 
                             onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add</i></span> */}
@@ -33,7 +33,7 @@ import Button from 'react-bootstrap/Button';
 
         return(
             <div className="container">
-                <h3 className="center">Our items</h3>
+                <h3 className="center">Sydney Tours</h3>
                 <div className="box">
                     {itemList}
                 </div>
