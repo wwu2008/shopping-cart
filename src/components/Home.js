@@ -33,7 +33,7 @@ import button from 'react-bootstrap/Button';
 
         return(
             <div className="container">
-                <h3 className="center">Sydney Tours</h3>
+                <h3 className="center">My Sydney Tours</h3>
                 <div className="box">
                     {itemList}
                 </div>
